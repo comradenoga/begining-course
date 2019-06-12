@@ -1,0 +1,53 @@
+html, body {
+    transition: 1s;
+}
+
+#wrapper {
+    display: flex;
+    position: relative;
+    border: 1px solid coral;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(22, 22 ,22);
+    transition: 0.5s;
+}
+
+.links a:hover  {
+    color: rgb(255, 90, 0);
+}
+
+#header {
+    display: flex;
+    width: 40%;
+    align-self: center;
+    justify-content: center;
+}
+
+
+h2{
+    border:1px solid red;
+}
+
+
+span{
+    border:1px solid red
+}
+
+#React{
+    background-color: bisque;
+}
+
+.highlight{
+    background-color: coral
+}
